@@ -5,26 +5,26 @@ import { Header } from "../common/Header";
 // globalStyles.js
 import styled, { createGlobalStyle } from "styled-components";
 
+import oceanBackground from "../public/ocean.jpg";
+
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: teal;
-    font-family: Open-Sans, Helvetica, Sans-Serif;
+
   }
   * {
     box-sizing: border-box;
   }
 `;
 
-const HomeWrapper = styled.div`
+const MainWrapper = styled.div`
   width: 100%;
-  color: pink;
 `;
 
 export default function Home() {
   return (
-    <HomeWrapper>
+    <MainWrapper>
       <GlobalStyle />
       <Head>
         <title>Create Next App</title>
@@ -85,6 +85,6 @@ export default function Home() {
           </span>
         </a>
       </footer>
-    </HomeWrapper>
+    </MainWrapper>
   );
 }

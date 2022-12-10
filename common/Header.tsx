@@ -4,7 +4,7 @@ import Link from "next/link";
 const HeaderWrapper = styled.header`
   width: 100%;
   height: 10rem;
-  background: darkgoldenrod;
+  background-color: #dcdce6;
   display: flex;
   justify-content: space-between;
 `;
