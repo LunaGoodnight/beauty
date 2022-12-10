@@ -1,11 +1,20 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 const HeaderWrapper = styled.header`
   width: 100%;
-  height: calc(100% - 30rem);
-  background: aquamarine;
+  height: 10rem;
+  background: darkgoldenrod;
+  display: flex;
 `;
 
 export const Header = () => {
-  return <HeaderWrapper>I am header</HeaderWrapper>;
+  return (
+    <HeaderWrapper>
+
+
+        <Link href="/breast">巨乳</Link>
+
+    </HeaderWrapper>
+  );
 };
