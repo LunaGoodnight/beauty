@@ -6,15 +6,25 @@ const HeaderWrapper = styled.header`
   height: 10rem;
   background: darkgoldenrod;
   display: flex;
+  justify-content: space-between;
 `;
 
+const LinkItem = styled.div`
+  color: royalblue;
+  display: block;
+  font-size: 2.9rem;
+`;
 export const Header = () => {
   return (
     <HeaderWrapper>
-
-
-        <Link href="/breast">巨乳</Link>
-
+      <LinkItem>
+        <Link href="/">Logo</Link>{" "}
+      </LinkItem>
+      <nav>
+        <LinkItem>
+          <Link href="/breast">巨乳</Link>
+        </LinkItem>
+      </nav>
     </HeaderWrapper>
   );
 };
