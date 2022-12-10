@@ -7,24 +7,38 @@ const HeaderWrapper = styled.header`
   background-color: #dcdce6;
   display: flex;
   justify-content: space-between;
+  padding: 2rem;
 `;
 
 const LinkItem = styled.div`
   color: royalblue;
   display: block;
-  font-size: 2.9rem;
+`;
+
+const Logo = styled.div`
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: royalblue;
+`;
+const Nav = styled.nav`
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
 `;
 export const Header = () => {
   return (
     <HeaderWrapper>
-      <LinkItem>
-        <Link href="/">Logo</Link>{" "}
-      </LinkItem>
-      <nav>
+      <Logo>
+        <Link href="/">醫美人造人</Link>{" "}
+      </Logo>
+      <Nav>
         <LinkItem>
           <Link href="/breast">巨乳</Link>
         </LinkItem>
-      </nav>
+        <LinkItem>
+          <Link href="/breast">巨乳</Link>
+        </LinkItem>
+      </Nav>
     </HeaderWrapper>
   );
 };
