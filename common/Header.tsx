@@ -25,6 +25,7 @@ const Nav = styled.nav`
   gap: 1rem;
   font-size: 1rem;
 `;
+
 export const Header = () => {
   return (
     <HeaderWrapper>
@@ -36,7 +37,7 @@ export const Header = () => {
           <Link href="/breast">巨乳</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="/breast">巨乳</Link>
+          <Link href="/face">臉部</Link>
         </LinkItem>
       </Nav>
     </HeaderWrapper>
