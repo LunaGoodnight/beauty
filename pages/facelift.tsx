@@ -1,7 +1,7 @@
 import { Header } from "../common/Header";
 import { LeftNav } from "../common/LeftNav";
 
-const face = () => {
+const facelift = () => {
   return (
     <div>
       <Header />
@@ -11,4 +11,4 @@ const face = () => {
   );
 };
 
-export default face;
+export default facelift;

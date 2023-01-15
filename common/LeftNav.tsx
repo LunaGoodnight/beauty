@@ -16,7 +16,7 @@ export const LeftNav = () => {
     <LeftNavWrapper>
       <List>
         <li>
-          <Link href="/face-lift">拉皮</Link>
+          <Link href="/facelift">拉皮</Link>
         </li>
       </List>
     </LeftNavWrapper>
