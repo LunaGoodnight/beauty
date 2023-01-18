@@ -1,12 +1,14 @@
 import { Header } from "../common/Header";
-import {LeftNav} from "../common/LeftNav";
+
+import { Body } from "../common/Body";
 
 const breast = () => {
   return (
     <div>
       <Header />
-      <LeftNav />
-      胸部大大的
+      <Body>
+        <div>胸部大大的</div>
+      </Body>
     </div>
   );
 };

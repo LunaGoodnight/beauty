@@ -5,13 +5,14 @@ const LeftNavWrapper = styled.div`
   width: 30%;
 `;
 
-export const List = styled.ul`
+const List = styled.ul`
   li {
     width: 100%;
     padding: 1rem 0;
   }
 `;
-export const LeftNav = () => {
+
+export const FaceLeftNav = () => {
   return (
     <LeftNavWrapper>
       <List>

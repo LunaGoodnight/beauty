@@ -1,12 +1,16 @@
 import { Header } from "../common/Header";
-import { LeftNav } from "../common/LeftNav";
+
+import { Body } from "../common/Body";
+import { FaceLeftNav } from "../common/FaceLeftNav";
+import { BodyWrapper } from "../styles/common";
 
 const face = () => {
   return (
     <div>
       <Header />
-      <LeftNav />
-      臉要好看，別人才會看你的臉。
+      <BodyWrapper>
+        <FaceLeftNav /> <div>臉要好看，別人才會看你的臉。</div>
+      </BodyWrapper>
     </div>
   );
 };
