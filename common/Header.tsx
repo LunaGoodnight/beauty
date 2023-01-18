@@ -39,6 +39,9 @@ export const Header = () => {
         <LinkItem>
           <Link href="/face">臉部</Link>
         </LinkItem>
+        <LinkItem>
+          <Link href="/clinic">診所</Link>
+        </LinkItem>
       </Nav>
     </HeaderWrapper>
   );
