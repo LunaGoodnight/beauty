@@ -1,22 +1,29 @@
 import { Header } from "../common/Header";
 import { clinicList } from "../config/clinicList";
 import { Body } from "../common/Body";
+import styled from "styled-components";
+
+const ClinicListWrapper = styled.ul`
+  li {
+    padding: 1rem 0;
+  }
+`;
 
 const clinic = () => {
   return (
     <div>
       <Header />
       <Body>
-        <div>
+        <ClinicListWrapper>
           {clinicList.map(({ name, services, district, link }, i) => {
             return (
-              <div key={i}>
+              <li key={i}>
                 <div>{name}</div>
                 <div>{district}</div>
-              </div>
+              </li>
             );
           })}
-        </div>
+        </ClinicListWrapper>
       </Body>
     </div>
   );

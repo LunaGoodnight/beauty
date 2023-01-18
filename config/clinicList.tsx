@@ -17,13 +17,13 @@ export const clinicList = [
   },
   {
     name: "尼斯診所",
-    district: ["Taipei"],
+    district: [taiwanMap.taipei],
     link: "https://wbeauty.com.tw/index.php",
     address: "台北市大安區敦化南路一段190巷51號",
   },
   {
     name: "英爵醫美",
-    district: ["Taipei"],
+    district: [taiwanMap.taipei],
     link: "https://wbeauty.com.tw/index.php",
   },
   {
