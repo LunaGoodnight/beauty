@@ -1,6 +1,7 @@
 export const taiwanMap = {
   taipei: "Taipei",
   taichung: "Taichung",
+  Xinzhuang: "Xinzhuang",
 };
 
 export const clinicList = [
@@ -28,17 +29,23 @@ export const clinicList = [
   },
   {
     name: "法喬醫美診所",
-    district: ["Taipei", "Taichung", "Kaohsiung"],
+    district: [taiwanMap.taipei, "Taichung", "Kaohsiung"],
     link: "https://www.facharming.com/",
   },
   {
     name: "君綺醫美診所",
-    district: ["Taipei", "Taichung", "Kaohsiung", "Taoyuan"],
+    district: [taiwanMap.taipei, "Taichung", "Kaohsiung", "Taoyuan"],
     link: "https://www.jing-chi.com.tw/",
   },
   {
     name: "君綺醫美診所",
-    district: ["Taipei", "Taichung", "Kaohsiung", "Taoyuan"],
+    district: [
+      taiwanMap.taipei,
+      "Taichung",
+      "Kaohsiung",
+      "Taoyuan",
+      taiwanMap.Xinzhuang,
+    ],
     link: "https://www.jinyenclinic.com/",
   },
 ];
