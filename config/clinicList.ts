@@ -59,4 +59,11 @@ export const clinicList = [
     link: "https://wembeautyclinic.com.tw/",
     description: "新竹醫美推薦｜微依美精品醫美診所｜皮秒/音波/微整形",
   },
+  {
+    name: "粹究美學診所",
+    district: [taiwanMap.taipei],
+    link: "https://tresure-clinic.com/",
+    address: "臺北市中山區南京東路二段62號10樓",
+    description: "專注客製化美學｜微整｜手術｜肌膚問題｜私密護理",
+  },
 ];
