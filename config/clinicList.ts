@@ -39,6 +39,11 @@ export const clinicList = [
   },
   {
     name: "君綺醫美診所",
+    district: [taiwanMap.taipei, "Taichung", "Kaohsiung", "Taoyuan"],
+    link: "https://www.jing-chi.com.tw/",
+  },
+  {
+    name: "君綺醫美診所",
     district: [
       taiwanMap.taipei,
       "Taichung",
@@ -47,5 +52,11 @@ export const clinicList = [
       taiwanMap.Xinzhuang,
     ],
     link: "https://www.jinyenclinic.com/",
+  },
+  {
+    name: "微依美精品醫美診所",
+    district: [taiwanMap.taipei],
+    link: "https://wembeautyclinic.com.tw/",
+    description: "新竹醫美推薦｜微依美精品醫美診所｜皮秒/音波/微整形",
   },
 ];
