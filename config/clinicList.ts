@@ -31,10 +31,14 @@ export const clinicList = [
     district: ["Taipei", "Taichung", "Kaohsiung"],
     link: "https://www.facharming.com/",
   },
-
   {
     name: "君綺醫美診所",
     district: ["Taipei", "Taichung", "Kaohsiung", "Taoyuan"],
     link: "https://www.jing-chi.com.tw/",
+  },
+  {
+    name: "君綺醫美診所",
+    district: ["Taipei", "Taichung", "Kaohsiung", "Taoyuan"],
+    link: "https://www.jinyenclinic.com/",
   },
 ];

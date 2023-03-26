@@ -9,7 +9,8 @@ const face = () => {
     <div>
       <Header />
       <BodyWrapper>
-        <FaceLeftNav /> <div>臉要好看，別人才會看你的臉。</div>
+        <FaceLeftNav />
+        <div>臉要好看，別人才會看你的臉。</div>
       </BodyWrapper>
     </div>
   );

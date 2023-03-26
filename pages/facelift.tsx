@@ -1,6 +1,5 @@
 import { Header } from "../common/Header";
 import { FaceLeftNav } from "../common/FaceLeftNav";
-import { Body } from "../common/Body";
 import { BodyWrapper } from "../styles/common";
 
 const facelift = () => {
